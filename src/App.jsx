@@ -30,16 +30,16 @@ const App = () => {
   return (
     <div className="h-screen w-full relative">
       <div className="flex flex-row wrap flex-center w-full h-full">
-        <div className="w-1/2">
+        <div className="w-1/2 h-full overflow-y-auto">
           <div className="h-full p-[2em]">
-            <div className="bg-peach p-[1em] rounded-lg">
+            <div className=" bg-tea-green p-[1.25em] rounded-lg border-[1px] border-blue-saphire/25">
               <div className="py-[2em] px-[1em]">
-                <h1 className="text-dark-blue text-6xl font-sora font-extrabold ">
+                <h1 className="text-blue-saphire text-6xl font-sora font-extrabold ">
                   Create your acccount
                 </h1>
               </div>
               <form action="">
-                <div className="flex flex-row flex-wrap flex-grow gap-3 input-container p-[1em] bg-white rounded-lg">
+                <div className="flex flex-row flex-wrap flex-grow gap-3 input-container p-[1em] bg-white/75 rounded-lg">
                   <Input
                     name="First Name"
                     placeholder="Jhon"
@@ -64,7 +64,7 @@ const App = () => {
                 </div>
                 <button
                   type="submit"
-                  className="w-full mt-3 p-5 rounded-lg bg-white"
+                  className="w-full my-6 p-4 rounded-lg text-sm font-[600] font-poppins transition-colors bg-blue-saphire border-[1px] border-blue-saphire hover:bg-ocean-green text-peach hover:text-blue-saphire duration-300"
                 >
                   submit
                 </button>

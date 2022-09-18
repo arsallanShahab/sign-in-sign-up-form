@@ -22,10 +22,12 @@ export default function input({
   required = false,
 }) {
   return (
-    <div className={`bg-peach p-2 rounded-lg ${width}`}>
+    <div
+      className={`bg-light-green/50 p-3 rounded-lg border-[1px] border-blue-saphire/25 ${width}`}
+    >
       <label
         htmlFor={name.toLowerCase()}
-        className="block text-sm font-medium text-gray-700"
+        className="block text-sm text-purssian-blue font-poppins font-semibold"
       >
         {name}
       </label>
@@ -34,7 +36,7 @@ export default function input({
           type={type}
           name={name.toLowerCase()}
           id={name.toLowerCase()}
-          className="block w-full rounded-md border-gray-300 py-3 pl-3 pr-12 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+          className="font-poppins block w-full rounded-md border-ocean-green/25 py-3 pl-3 pr-12 border-[1px] hover:border-ocean-green focus:outline-none focus:ring focus:ring-ocean-green sm:text-sm duration-150"
           placeholder={placeholder}
           required={required}
         />

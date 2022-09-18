@@ -30,9 +30,9 @@ const App = () => {
   return (
     <div className="h-screen w-full relative">
       <div className="flex flex-row wrap flex-center w-full h-full">
-        <div className="w-1/2 h-full overflow-y-auto">
-          <div className="h-full p-[2em]">
-            <div className=" bg-tea-green p-[1.25em] rounded-lg border-[1px] border-blue-saphire/25">
+        <div className="w-1/2 h-full p-[2em] pt-[2.75em]  overflow-y-auto scrollbar">
+          <div className="block relative h-full">
+            <div className="relative bg-tea-green p-[1.25em] rounded-lg border-[1px] border-blue-saphire/25">
               <div className="py-[2em] px-[1em]">
                 <h1 className="text-blue-saphire text-6xl font-sora font-extrabold ">
                   Create your acccount
@@ -70,9 +70,15 @@ const App = () => {
                 </button>
               </form>
             </div>
+            <div className="flex justify-between px-4 pt-8 pb-[2.5em] text-sm">
+              <p>already have an account?</p>
+              <a href="" className="font-semibold text-blue-saphire">
+                Sign In
+              </a>
+            </div>
           </div>
         </div>
-        <div className="h-full w-1/2 overflow-hidden object-cover">
+        <div className="h-full w-1/2 overflow-hidden object-cover font-poppins">
           <img
             src={`${imageUrl.src}`}
             alt={`${imageUrl.name}`}

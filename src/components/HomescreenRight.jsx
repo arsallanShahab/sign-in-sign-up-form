@@ -13,19 +13,19 @@ const HomescreenRIght = () => {
   const backgroundImages = [
     {
       name: "busy-project-manager-overwhelmed-by-work",
-      src: "./image-1.jpg",
+      src: "./image-1.png",
     },
     {
       name: "people-collaborating-or-sharing-a-message",
-      src: "./image-2.jpg",
+      src: "./image-2.png",
     },
     {
       name: "mobile-map-and-navigation",
-      src: "./image-3.jpg",
+      src: "./image-3.png",
     },
     {
       name: "startups,-entrepreneurship-and-growth",
-      src: "./image-4.jpg",
+      src: "./image-4.png",
     },
   ];
 
